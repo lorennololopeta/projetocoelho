@@ -31,7 +31,7 @@ rabbit.addImage(rabbitImg);
 function draw() {
   background(0);
 
-
+rabbit.x = World.mouseX;
   edges= createEdgeSprites();
   rabbit.collide(edges);
 
